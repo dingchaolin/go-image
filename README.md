@@ -27,3 +27,4 @@
 ## Package vips was not found in the pkg-config search path
 -  export PKG_CONFIG_PATH=/usr/lib64/pkgconfig:/usr/share/pkgconfig:/usr/lib/pkgconfig:/usr/local/lib/pkgconfig:/usr/local/share/pkgconfig
 
+## mac 和 centos 在各自的环境中编译
