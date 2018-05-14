@@ -28,3 +28,9 @@
 -  export PKG_CONFIG_PATH=/usr/lib64/pkgconfig:/usr/share/pkgconfig:/usr/lib/pkgconfig:/usr/local/lib/pkgconfig:/usr/local/share/pkgconfig
 
 ## mac 和 centos 在各自的环境中编译
+
+##  error while loading shared libraries: libvips.so.42: cannot open shared object file: No such file or directory
+- export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+- 在centos中libvips生成的so库在 /usr/local/lib 目录下
+##  cannot find package "image_operate" in any of
+-  export GOPATH=`pwd` 
